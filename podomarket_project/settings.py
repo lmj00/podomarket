@@ -102,8 +102,11 @@ AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
-]
+    {
+        "NAME": "podomarket.validators.CustomPasswordValidator",
+    },
 
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
